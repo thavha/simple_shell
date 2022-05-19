@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * lookforslash - identifies if first char is a slash.
+ * lookforslash - determine the first char is a slash.
  * @cmd: first string
- * Return: 1 if yes 0 if no.
+ * Return: 1 for yes 0 for no.
  */
 int lookforslash(char *cmd)
 {
@@ -23,10 +23,10 @@ int lookforslash(char *cmd)
 }
 
 /**
- * compareExit - identifies if first char is a slash.
+ * compareExit - dtermine if first char is a slash.
  * @s1: first string
  * @s2: exit string
- * Return: 1 if yes 0 if no.
+ * Return: 1 for yes 0 for no.
  */
 int compareExit(char *s1, char *s2)
 {
@@ -44,10 +44,10 @@ int compareExit(char *s1, char *s2)
 }
 
 /**
- * compareEnv - identifies if first char is a slash.
+ * compareEnv - determine if first char is a slash.
  * @s1: first string
  * @s2: exit string
- * Return: 1 if yes 0 if no.
+ * Return: 1 for yes 0 for no.
  */
 int compareEnv(char *s1, char *s2)
 {
